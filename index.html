@@ -11,48 +11,55 @@
     
     <header>
      <h1><img src = "assets/horizontal-logo.svg" alt = "GC - Humane Society" width = "200" height = "200"/> </h1> 
-       <ul>
-           <li>About us</li>
-           <li>Contact</li>
-           <li>Make a donation</li>
-       </ul>
-    </header>
-    <section class = "w3-container">
+     <div class="container">
+        <nav class="choices">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="donation-button"><a href="#">Make a Donation</a></li>
+            </ul>           
+        </nav>
+    </div>  
+</header>
+<section class="content-container">
+    <aside>
         <h2>Our Locations:</h2>
-        <div class = "block-display">
-            <button class = "button"> Detroit </button>
-            <button class = "button"> Grand Rapids</button>
+        <div class="block-display">
+            <button class="button">Detroit </button>
+            <button class="button">Grand Rapids </button>
         </div>
         <p>Carrot cake sesame snaps jujubes croissant dragée dragée. Carrot cake bonbon caramels icing jelly-o. Croissant topping gingerbread danish marzipan icing topping marzipan liquorice. 
         </p>
-    </section>
-    <section>
+    </aside>
+    <main>
         <h2>Friends who need a home:</h2>
-        <div class = "images">
-            <div class = "images2">
-                <img src="assets/cat-1.jpg" alt="Orange Cat" width = "200" height = "200">
+        <div class="container-images">
+            <div class="image mobile-spacer">
+                <img src="assets/cat-1.jpg" alt="Orange Cat">
             </div>
-            <div class = "images2">
-                <img src="assets/cat-2.jpg" alt="Black and White Cat" width = "200" height = "200">
+            <div class="image spacer">
+                <img src="assets/cat-2.jpg" alt="Black and White Cat">
             </div>
-            <div class = "images2">
-                <img src="assets/dog-1.jpg" alt="Dog 1" width = "200" height = "200">
+            <div class="image mobile-spacer">
+                <img src="assets/dog-1.jpg" alt="Beagle">
             </div>
-            <div class = "images3">
-                <img src="assets/dog-2.jpg" alt="Dog 2" width = "200" height = "200">
+            <div class="image">
+                <img src="assets/dog-2.jpg" alt="Bull Dog">
             </div>
-            <div class = "images3">
-                <img src="assets/llama-1.jpg" alt = "Llama 1" width = "200" height = "200">
+            <div class="image spacer mobile-spacer">
+                <img src="assets/llama-1.jpg" alt="Brown Llama">
             </div>
-            <div class = "images3">
-                <img src="assets/llama-2.jpg" alt = "Llama 1" width = "200" height = "200">
+            <div class="image">
+                <img src="assets/llama-2.jpg" alt="Red Llama">
             </div>
+    </main>
+</section>
+<footer>
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="assets/gc-icon.svg" alt="GC Logo">
         </div>
-    </section>
-    <footer>
-        <div class = "footer">
-            <img src = "assets/gc-icon.svg" alt = "GC Logo" width = "50" height = "50">
-        </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
